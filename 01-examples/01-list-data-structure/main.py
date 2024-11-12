@@ -8,7 +8,7 @@ my_second_list = list(("apple", "banana", "beer"))
 
 
 # Eksempel 2 - Hvordan man tilgår elementer i en liste
-first_element = my_list[0]
+first_element = my_list[0]  # apple
 last_element = my_list[-1]
 beer_and_chips = my_list[2:4]
 dont_buy_coca_cola = my_list[:4]

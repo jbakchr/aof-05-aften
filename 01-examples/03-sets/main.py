@@ -3,6 +3,8 @@ Eksempler på brugen af 'set' datastrukturen
 Examples of set data structure
 """
 
+x = {"apples", "bananas", "pears"}  # Definer en set
+
 # Eksempel 1 - hvordan man skaber et "set"
 fruits = {"apples", "bananas", "pears", "grapes", "strawberries"}
 bands = set(["The Beatles", "The Rolling Stones", "Gasolin"])

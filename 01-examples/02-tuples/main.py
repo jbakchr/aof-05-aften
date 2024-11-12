@@ -2,6 +2,8 @@
 Eksempler på brugen af 'tuple' datastrukturen
 """
 
+x = ("Jonas", 42, True)
+
 # Eksempel 1 - Hvordan man skaber en "tuple"
 my_tuple = ("apple", "banana", "beer", "pears", "chips", "cheese")
 
@@ -36,6 +38,6 @@ change_tuple = tuple(change_to_list)  # Ændre opdateret list til tuple igen
 # Eksempel 6 - "Unpack" en tuple
 groceries = ("beer", "bananas", "pears", "ost")
 
-beer, *other_stuff = groceries
+beer, bananas, *other_stuff = groceries
 print(f"{beer} is the best ..")
 print(f"And the rest are: {other_stuff}")

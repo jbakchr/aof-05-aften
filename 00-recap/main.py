@@ -46,3 +46,9 @@ z = 30
 and_operator = x < y and y > z  # False
 or_operator = x < y or y > z  # True
 not_operator = not x < y  # False
+
+is_started = False
+
+while not is_started:
+    print("Starting...")
+    is_started = True
